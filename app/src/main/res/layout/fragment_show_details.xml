@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+
+    tools:context=".ShowDetails">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#D5EAFAFA"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="12th National parliament Election"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tvSit"
+            android:layout_marginStart="50dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15dp"
+            android:textColor="#000000"
+            />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_shape"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Voter No"
+
+        />
+    <TextView
+        android:id="@+id/tvVoterNO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Voting Serial Number"
+
+
+        />
+    <TextView
+        android:id="@+id/tvSerisalNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Center"
+
+
+        />
+    <TextView
+        android:id="@+id/tvCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_marginTop="15dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Center Address"
+
+
+        />
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        />
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seat's Candidates"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        />
+
+
+
+
+</LinearLayout>

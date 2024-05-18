@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Result">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Constituencies"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#6A21FD"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#6A21FD"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/textview"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Your Choice"
+            android:textColor="#000000"
+
+            />
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+
+            android:text="    12th National Parliament Election       >"
+            android:background="#ffffff"
+            android:layout_marginStart="15dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="#000000"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="10dp"
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@drawable/textview"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Your Choice"
+            android:textColor="#000000"
+
+            />
+
+
+        <TextView
+            android:id="@+id/edSearch"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:gravity="center"
+            android:hint="Enter your Searching Area"
+            android:textColor="#000000"
+             />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/bottonVerify"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Verify"
+        android:textSize="20sp"
+        android:background="@drawable/election_info"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_alignParentBottom="true"
+
+        />
+
+
+
+
+
+</LinearLayout>

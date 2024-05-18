@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Information">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Information"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+
+
+
+    <LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:background="@drawable/textview"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Your Choice"
+        android:textColor="#000000"
+
+        />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:text="    12th National Parliament Election       >"
+        android:background="#ffffff"
+        android:layout_marginStart="15dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#000000"
+
+        />
+
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#7454B6"
+        android:text="Information About Constituencies"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:paddingStart="15dp"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/glance"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:cardCornerRadius="10dp"
+        android:backgroundTint="#ffffff"
+
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At a Glance"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12th National Parliament Election"
+                android:textSize="15dp"
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_shape"
+                android:text="Details >"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/parties"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        app:cardCornerRadius="10dp"
+
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registered Parties"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12th National Parliament Election"
+                android:textSize="15dp"
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_shape"
+                android:text="Details >"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/noticeBoard"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        app:cardCornerRadius="10dp"
+
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NoticeBoard"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12th National Parliament Election"
+                android:textSize="15dp"
+                android:textColor="#000000"
+
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_shape"
+                android:text="Details >"
+                android:padding="5dp"
+                android:textColor="#ffffff"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+

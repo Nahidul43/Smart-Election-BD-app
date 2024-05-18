@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/img_1"
+        />
+    <item android:title="Information"
+        android:id="@+id/information"
+        android:icon="@drawable/img"
+        />
+    <item android:title="Result"
+        android:id="@+id/result"
+        android:icon="@drawable/img_2"
+        />
+    <item android:title="Voting Center"
+        android:id="@+id/center"
+        android:icon="@drawable/img_3"
+        />
+
+</menu>

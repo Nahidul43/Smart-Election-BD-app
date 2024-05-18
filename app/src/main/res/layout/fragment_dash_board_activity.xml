@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DashBoardActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:padding="15dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:padding="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Verify NID to check your votting details"
+                android:textSize="30sp"
+                android:background="@drawable/bottom_shape"
+                android:paddingStart="10sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:backgroundTint="#FFFFFF"
+
+                app:cardCornerRadius="10dp"
+
+
+                >
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date of birth"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    />
+                <EditText
+                    android:id="@+id/edDate"
+                    android:layout_marginTop="25dp"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Enter data of birth"
+                    android:drawableStart="@drawable/img_5"
+                    android:textColorHint="#AD5E35B1"
+                    android:textColor="#000000"
+
+                    />
+
+                <TextView
+                    android:padding="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NID number"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="70dp"
+                    />
+
+
+                <EditText
+                    android:id="@+id/edNumber"
+                    android:layout_marginTop="100dp"
+                    android:padding="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Enter NID number"
+                    android:drawableStart="@drawable/in"
+                    android:textColorHint="#AD5E35B1"
+                    android:inputType="number"
+                    android:textColor="#000000"
+                    />
+
+                <TextView
+                    android:id="@+id/bottonVerify"
+                    android:layout_marginTop="170dp"
+
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:text="Verify"
+                    android:textSize="20sp"
+                    android:background="@drawable/election_info"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                   android:layout_marginStart="20dp"
+
+
+                    />
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Click the button below to know about the election information and analysis."
+                android:textSize="15dp"
+                android:gravity="center"
+                />
+
+
+            <TextView
+                android:id="@+id/election_Info"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Election Information"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#58C0F3"
+                android:padding="10dp"
+                android:background="@drawable/button_shap"
+                />
+
+            <TextView
+                android:id="@+id/election_Result"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Election Result"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#58C0F3"
+                android:padding="10dp"
+                android:background="@drawable/button_shap"
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
